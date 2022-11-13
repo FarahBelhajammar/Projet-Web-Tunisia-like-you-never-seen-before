@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset= "utf-8"/>
+     <title>Tunisia like you never seen before</title>
+     <meta name="keywords"content="tourisme,tunisie,vacance,été,aventure ,hammamet,nabeul,sousse,Tozeur,hotel,guide",/>
+	 <meta name ="description"content="Voyage organisé avec un jeune tunisien "/>
+	 <link rel="stylesheet" href="../css/style.css"/>
+	 <script src="../js/controle.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Allez -vite!!!Réservez-vous</h1>
+  </header>
+  <nav>
+  </nav>
+  <section>
+    
+      <article>
+	      <Fieldset>
+	        <form name="reservation"method="get" action="" onsubmit="return verif2(document.reservation.nom,document.reservation.prenom,document.reservation.pass,
+		     document.reservation.config pass)">
+		     <div>
+			   <p> <label for="nom">Votre nom :*</label>
+                   <input type="text" name="nom" id="nom"required /></p>
+		     </div>
+		     <div>
+			      <p> <label for="prenom">Votre prénom :*</label>
+                   <input type="text" name="prenom" id="prenom"required /></p>
+		     </div>
+		      <div>
+				 <p> <label for="email">Votre email :*</label>
+                   <input type="email"  id="email"required /></p>
+		     </div>		   
+	          <div>
+			   <p><label for="pass">Votre mot de passe :*</label>
+                   <input type="password" name="pass" id="pass"required /></p>
+	          </div>
+	          <div>
+		      <p><label for="m_config pass">confirmation de mot de passe :*</label>
+		           <input type="password" name="config pass" id="m_config pass"required><p>
+		     </div>
+	          <div>
+		   <p>   <label for="tel">le numéro de télephone:*</label>
+			     <input type="text" id="tel" name="tel"required /></p>
+	          </div>
+		       <div>
+		<p>   <label for="votre pays">Quel est votre pays:*</label>
+               <input type="text"id="votre pays" list="pays" placeholder="Choisir votre pays" name="mon_pays"/>
+                  <datalist id="pays">
+                    <option value="Tunisie" ></option>
+                    <option value="Algérie"></option>
+                    <option value="Maroc"></option>
+                    <option value="France"></option>
+                    <option value="Suisse"></option>
+					<option value="Afrique_Centrale">Afrique_Centrale </option>
+                     <option value="Afrique_du_sud">Afrique_du_Sud </option>
+                     <option value="Albanie">Albanie </option>
+                      <option value="Algerie">Algerie </option>
+                     <option value="Allemagne">Allemagne </option>
+                      <option value="Andorre">Andorre </option>
+                      <option value="Angola">Angola </option>
+                       <option value="Anguilla">Anguilla </option>
+                       <option value="Arabie_Saoudite">Arabie_Saoudite </option>
+                       <option value="Argentine">Argentine </option>
+                       <option value="Armenie">Armenie </option>
+                       <option value="Australie">Australie </option>
+                        <option value="Autriche">Autriche </option>
+						<option value="Qatar">Qatar </option>
+                         <option value="Republique_Dominicaine">Republique_Dominicaine </option>
+                       <option value="Republique_Tcheque">Republique_Tcheque </option>
+                        <option value="Reunion">Reunion </option>
+                        <option value="Roumanie">Roumanie </option>
+                        <option value="Royaume_Uni">Royaume_Uni </option>
+                        <option value="Russie">Russie </option>
+                        <option value="Rwanda">Rwanda </option>
+
+
+                  </datalist></p>
+		      </div>
+		      <div>
+		  
+                 <p> <label for="arrive">Veuillez saisir votre date d'arrivée:</label>
+                  <input type="date" id="arrive" name="arrive"></p>
+             </div>
+		      <div>
+		        <p> <label for="depart">Veuillez saisir votre date de départ:</label>
+                <input type="date" id="depart" name="depart"></p>
+		      </div>
+		       <div>
+                  <p><button type="submit"name="btclic">Réserver</button>
+                   <button type="reset">Annuler</button></p>	   
+		        </div>
+		  </fieldset>		  
+		 </form>
+	  </article>
+  </section>
+   <footer>
+       <div class="contenu-footer">
+           <div class="Nos réseaux">
+             <h3>Nos réseaux</h3>
+                 <ul class="media">
+                   <li><a href="#" ><img src="../images/facebook.jpg"alt="icones reseaux sociaux">Facebook</a>
+                   <li><a href="#"><img src="../images/instagram.png"alt="icones reseaux sociaux">Instagram</a>
+                   <li><a href="#"><img src="../images/twitter.png"alt="icones reseaux sociaux">Twitter</a>
+                 </ul>
+       </div>
+	   <div class="bloc footer -services">
+         <h3>Restons en contact</h3>
+          <p>+216-54678862</p>
+          <p>serviceclient@gmail.com</p>
+
+       </div>
+       <div class="mention">
+           <a href ="mentions légales.html"><img src="../images/tunisie.png"alt="icones drapeau tunisien">Mentions légales</a></div>
+       </div>
+   </footer>
+</body>
+</html>

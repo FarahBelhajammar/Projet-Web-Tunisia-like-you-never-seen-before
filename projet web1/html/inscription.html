@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+     <meta charset= "utf-8"/>
+     <title>Tunisia like you never seen before</title>
+	 <meta name="keywords"content="tourisme,tunisie,vacance,été,aventure ,hammamet,nabeul,sousse,Tozeur,hotel,guide",/>
+	 <meta name ="description"content="Voyage organisé avec un jeune tunisien "/>
+	 <link rel="stylesheet" href="../css/style.css"/>
+	 <script src="../js/controle.js"></script>
+	 
+</head>
+<body>
+   <header>
+     <h1>Créer Votre Blog personnel</h1>
+   </header>
+   <nav>
+     <ul>
+           <li><a href="../Acceuil.html">Acceuil</a></li>
+	      <li> <a href ="nos offres.html">Nos offres</a></li>
+	  
+	 </ul>
+	   <form name="recherche"method="get">
+       
+       <button type="submit" name="envoi">Chercher</button>
+	   <input type="search" id="recherche" name="recherche"/>
+        </form>
+   </nav>
+   <section>
+          <h2 class="couleur">présentation </h2>
+		      <article>
+		    <p>Vous connaissez certainement des lieux en tunisie magnifiques , splendides et qu'ne sont pas reconnus, Alors Si vous voulez à la fois proumouvoir les trésors du votre pays tout en gagnant de l'argent</p>
+             <p><strong> Inscrivez vous dans notre site et vivez cette nouvelle expérience</strong></p>
+	         </article>
+	         <article>
+	               <h2 class="couleur">Inscription</h2>
+		              <h3>Nouveau compte</h3>
+			            <fieldset>
+		                <div>
+			              <form method="get" action="" name= "inscrire"onsubmit="return verif(document.inscrire.nom,document.inscrire.prenom,document.inscrire.pass,document.inscrire.config pass,document.inscrire.choix)"; > 
+			             <p> <label for="nom">Votre nom :*</label>
+                         <input type="text" name="nom" id="nom"required /></p>
+			             
+					   </div>
+			           <div>
+			               <p> <label for="prenom">Votre prenom :*</label>
+                           <input type="text" name="prenom" id="prenom"required /></p>
+			           </div>
+				           <p> <label for="email">Votre email :*</label>
+                           <input type="email" id="email"required /></p>
+			           <div>
+			              <p>  <label for="pass">Votre mot de passe :*</label>
+                          <input type="password" name="pass" id="pass"required /></p>
+			            </div>
+			            <div>
+		                  <p> <label for="m_config pass">confirmation de mot de passe :*</label>
+		                    <input type="password" name="config pass" id="m_config pass"required></P>
+		                </div>
+			             <div>
+		                    <p> <label for="tel">le numéro de télephone:</label>
+			                <input type="text" id="tel" name="tel"required pattern="[0-9]{8}"
+                              title="le numéro de télephone est composé de 8 chiffres au maximum"></p>
+				         </div>
+				          <div>
+				             <p>  <label for="region">votre région:</label>
+				             <input type="text" id="region" name="region" required/></p>
+				           </div>
+				           <div> 
+				               <p>  <label for="adresse">Votre adresse exacte:</label>
+				            	<input type="text"id="adresse" name="Adresse" required/></p>
+			            	</div>
+			               <div>
+			                  <p> <input type="checkbox" name="choix" value="choix"id="choix" /> <label for="choix">je m'abonne à votre site</label></p>
+              
+
+			               </div>
+			               <div>
+			     
+				    
+					      <p><button type="submit"name="btclic">Créer mon compte</button>
+                             <button type="reset">Annuler</button></p>	
+			              </div>
+			                <p>*champs obligatoires</p>
+							</form>
+		             </fieldset>
+			              <h3>Déja inscrit</h3>
+			           <fieldset>
+			              <div>
+			                  <form method="get" action="" name= "connexion"onsubmit="return controlemdp(document.connexion.pass)"> 
+					 
+			                    <p> <label for="email">adresse e-mail:*</label>
+                              <input type="text" name="email" size="40"maxlength="50"id="email" required/></p>
+			             </div>
+			              <div>
+			                    <label for="pass">Votre mot de passe :*</label>
+                               <input type="password" name="pass" size="30"maxlength="30" id="pass"required />
+
+			             </div>
+			   
+			               <div>
+			  
+			                    <button type="submit">Se connecter</button>
+				                <button type="reset"name="reset">Annuler</button>
+			                 </div>
+			            </fieldset>
+			                 </form>
+			   
+	  </article>
+   </section>
+    <footer>
+      <div class="contenu-footer">
+      <div class="Nos réseaux">
+      <h3>Nos réseaux</h3>
+           <ul class="media">
+               <li><a href="#" ><img src="../images/facebook.jpg"alt="icones reseaux sociaux">Facebook</a>
+               <li><a href="#"><img src="../images/instagram.png"alt="icones reseaux sociaux">Instagram</a>
+               <li><a href="#"><img src="../images/twitter.png"alt="icones reseaux sociaux">Twitter</a>
+            </ul>
+      </div>
+      <div class="bloc footer -services">
+         <h3>Restons en contact</h3>
+            <p>+216-54678862</p>
+            <p>serviceclient@gmail.com</p>
+
+      </div>
+       <div class="mention">
+        <a href ="mentions légales.html"><img src="../images/tunisie.png"alt="icones drapeau tunisien">Mentions légales</a></div>
+        </div>
+    </footer>
+</body>
+</html>

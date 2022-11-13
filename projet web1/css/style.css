@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Dancing+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Dancing+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Dancing+Script&family=PT+Serif:ital@0;1&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Belleza&family=Dancing+Script&family=PT+Serif:ital@0;1&family=Pacifico&display=swap');
+.title{
+    
+    
+    background-repeat: no-repeat;
+    background-position: center left;
+    width:100%;;
+    
+    background-size:  44px;
+    color: #0066CC;
+    font-size:40px;
+	font-family:Dancing Script;
+	text-shadow: 5px 5px 10px #0066CC;
+}
+.imgblog{
+	width:70%;
+	height:100%;
+	position:relative;
+    margin-left:40px;
+	border: 3px #0066CC solid;
+
+}
+.imgblogg{
+width:50%;
+height:100%;
+position:relative;
+margin-left:40px;
+  border: 3px #0066CC solid;	
+}
+	
+
+
+.image{
+height:1%;
+width:100%;
+
+background-attachment:fixed;
+
+}
+ .fixer{ 
+ font-weight:bolder;
+ font-size:30px;
+
+ } 
+
+nav,footer{
+text-align:center;
+border-top:solid 4px none;
+border-bottom:none solid 4px;
+margin:20px;
+}
+nav ul{
+list-style-type:none;	
+}
+nav  li{
+display: inline;
+background-color: #87CEFA;
+border: 1px solid;
+border-color: #F3F3F3 #BBB #BBB #F3F3F3;
+margin: 5px;
+padding:5px;
+
+}
+a:link{
+Color: #0000CD;	
+text-decoration:none;
+margin-right:40px;
+}
+a:visited{
+color:#0000CD ;
+}
+a:hover,a:active{
+text-decoration:underline ;
+font-size:larger;
+}
+.imagetunisie{
+ width: 24px;
+  height:24px;
+
+}
+.facebook{
+  width: 24px;
+  height:24px;
+  vertical-align:-100%;
+  text-align:-100%;
+  
+}
+.instragram {
+
+  width: 24px;
+  height:24px;
+  vertical-align:bottom right;
+  
+}
+h2{
+color:#006699;
+font-family:pacifico;
+text-transform:capitalize;	
+}
+.couleur{
+color:#4169E1;
+font-family:pacifico;
+text-transform:capitalize;	
+}
+h1{
+color:#6495ED ;
+font-family:Dancing Script;
+background-repeat: no-repeat;
+background-position: center left;
+width:70;
+font-size:40px;
+}
+.titleblog{
+color:#6495ED ;
+font-family:Dancing Script;
+background-repeat: no-repeat;
+background-position: center left;
+width:25%;
+font-size:40px;	
+}
+p{
+font-family:PT Serif;
+}
+.beaute{
+color:#333300 ;
+font-family:Barlow Condensed;
+text-align:center;
+font-size:50px;
+
+}
+h3{
+color:#333300 ;
+font-family:Barlow Condensed;	
+}
+footer{
+border-top:1px dashed #000;
+width:100%;
+background:#f1f1f1;
+color:#333;
+}
+.contenu-footer{
+width:1200px;
+margin:0 auto;
+display:flex;
+justify-content:center;
+align-items:flex-start;
+font-size:20px;
+padding:50px 0 100px;
+}
+img{
+width:20px;
+}
+.mention{
+padding-left:20%;
+margin-top:15%;
+float:left;
+text-align:center;
+
+}
+.moi{
+padding-right:20%;
+margin-top:15%;
+float:left;
+text-align:left;	
+width:100%;
+}
+.media{
+	list-style-type:none;
+	position:relative;
+	right:10px;
+}
+.ajusterblog{
+text-align:justify;	
+	
+}
+.marg{
+padding-left:100px;	
+}
+.marg1{
+padding-left:200px;
+padding-bottom:100px;
+}
+.tourism{
+width:50%;
+height:50%;
+position:relative;
+padding-left:35%;
+overflow:auto;
+}
+.photo{
+	width:90%;
+	height:50%;
+position:relative;}
+.place{
+background-color:#FFFFF0;}
+.titleplace{
+font-family:Dancing Script;	
+font-size:35px;
+font-weight:bolder;
+color:#808080;
+}
+body{
+	/* background-color:#F8F8FF; */
+	background-color:#F5F5F5;
+}
+
+
